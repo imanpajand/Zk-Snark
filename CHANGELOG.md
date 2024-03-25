@@ -41,9 +41,7 @@ and this project adheres to Rust's notion of
 - Bumped dependencies to `ff 0.12`, `group 0.12`, `pairing 0.22`, `bitvec 1.0`, `blake2s_simd 1.0`.
 
 ## [0.11.2] - 2022-05-04
-### Fixed
-- Groth16 prover now correctly computes query densitites with respect to linear
-  combinations that contain coefficients of zero.
+ combinations that contain coefficients of zero.
 - Fixed an infinite recursion bug in the `Display` implementation for `SynthesisError`.
 
 ## [0.11.1] - 2021-09-09
@@ -95,3 +93,6 @@ and this project adheres to Rust's notion of
 - Bumped dependencies to `bitvec 0.20`, `ff 0.9`, `group 0.9`, `pairing 0.19`,
   `rand_core 0.6`.
 - MSRV is now 1.47.0.
+### Fixed
+- Groth16 prover now correctly computes query densitites with respect to linear
+ 
